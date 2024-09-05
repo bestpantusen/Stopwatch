@@ -16,6 +16,8 @@
 		DD6E9A8B2C8921F900CF78EA /* StopwatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6E9A8A2C8921F900CF78EA /* StopwatchTests.swift */; };
 		DD6E9A952C8921F900CF78EA /* StopwatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6E9A942C8921F900CF78EA /* StopwatchUITests.swift */; };
 		DD6E9A972C8921F900CF78EA /* StopwatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6E9A962C8921F900CF78EA /* StopwatchUITestsLaunchTests.swift */; };
+		DD6E9AA42C89285500CF78EA /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6E9AA32C89285500CF78EA /* Stopwatch.swift */; };
+		DD6E9AA62C892BA000CF78EA /* pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD6E9AA52C892BA000CF78EA /* pic.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		DD6E9A902C8921F900CF78EA /* StopwatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopwatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6E9A942C8921F900CF78EA /* StopwatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchUITests.swift; sourceTree = "<group>"; };
 		DD6E9A962C8921F900CF78EA /* StopwatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD6E9AA32C89285500CF78EA /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
+		DD6E9AA52C892BA000CF78EA /* pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pic.jpg; path = ../pic.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		DD6E9A672C8921F700CF78EA = {
 			isa = PBXGroup;
 			children = (
+				DD6E9AA52C892BA000CF78EA /* pic.jpg */,
 				DD6E9A722C8921F700CF78EA /* Stopwatch */,
 				DD6E9A892C8921F900CF78EA /* StopwatchTests */,
 				DD6E9A932C8921F900CF78EA /* StopwatchUITests */,
@@ -104,6 +109,7 @@
 				DD6E9A772C8921F700CF78EA /* ViewController.swift */,
 				DD6E9A792C8921F700CF78EA /* Main.storyboard */,
 				DD6E9A7C2C8921F900CF78EA /* Assets.xcassets */,
+				DD6E9AA32C89285500CF78EA /* Stopwatch.swift */,
 				DD6E9A7E2C8921F900CF78EA /* LaunchScreen.storyboard */,
 				DD6E9A812C8921F900CF78EA /* Info.plist */,
 			);
@@ -233,6 +239,7 @@
 			files = (
 				DD6E9A802C8921F900CF78EA /* LaunchScreen.storyboard in Resources */,
 				DD6E9A7D2C8921F900CF78EA /* Assets.xcassets in Resources */,
+				DD6E9AA62C892BA000CF78EA /* pic.jpg in Resources */,
 				DD6E9A7B2C8921F700CF78EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +268,7 @@
 				DD6E9A782C8921F700CF78EA /* ViewController.swift in Sources */,
 				DD6E9A742C8921F700CF78EA /* AppDelegate.swift in Sources */,
 				DD6E9A762C8921F700CF78EA /* SceneDelegate.swift in Sources */,
+				DD6E9AA42C89285500CF78EA /* Stopwatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
